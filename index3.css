@@ -1,0 +1,36 @@
+body{
+    background-image: url(cat_photo.jpg.jpg);
+    background-size: cover;
+
+}
+.Navbar{
+    background-color:green ;
+    display: flex;
+    margin:2px;
+
+    justify-content: space-evenly;
+
+}
+a{
+    text-decoration: none;
+    color:black ;
+ 
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+}
